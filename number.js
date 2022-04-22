@@ -6,25 +6,25 @@
 // document.querySelector('.check').addEventListener('click',function(){
     // const inputNumber = Number(document.querySelector('.inputNumber').value);
 // 
-    未入力の時
+    // 未入力の時
     // if(!inputNumber){
         // document.querySelector('.message').textContent = '数字を入力してね！';
     // }
 // 
-    正解の時
+    // 正解の時
     // else if(inputNumber === secretNumber){
         // document.querySelector('.message').textContent = '正解!!';
         // document.querySelector('secretNumber').textContent = secretNumber
         // document.querySelector('body').style.backgroundColor = '#60b347';
     // }
 // 
-    ハイスコア
+    // ハイスコア
     // if (score > highscore){
         // highscore = score;
         // document.querySelector('.highscore').textContent = highscore;
     // }
 // 
-    入力数字が正解より大きい
+    // 入力数字が正解より大きい
     // else if(inputNumber > secretNumber){
         // if (score > 1){
             // document.querySelector('.message').textContent = 'もっと小さいよ。';
@@ -38,7 +38,7 @@
         // }
     // }
 // 
-    入力数字が正解より小さい
+    // 入力数字が正解より小さい
     // else if(inputNumber < secretNumber){
         // if (score > 1){
             // document.querySelector('.message').textContent = 'もっと大きいよ。';
@@ -54,21 +54,21 @@
     //  });
 // 
 // document.querySelector('.reset').addEventListener('click', function(){
- スコアのリセット
+//  スコアのリセット
 //   score =20;
 //  document.querySelector('.score').textContent = score;
 // 
- シークレットナンバーのリセット
+//  シークレットナンバーのリセット
 //  secretNumber = Math.trunc(Math.random()*20)+1;
 //  document.querySelector('.secretNumber').textContent = '?';
 // 
- メッセージのリセット
+//  メッセージのリセット
 //  document.querySelector('.message').textContent = '数字は何だろう？？';
 // 
- 入力欄の
+//  入力欄の
                     // document.querySelector('.inputNumber').value = '';
 // 
- 背景色の
+//  背景色の
 //  document.querySelector('.body').style.backgroundColor = '#222';
 // })  
 // 
